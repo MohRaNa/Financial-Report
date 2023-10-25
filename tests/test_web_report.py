@@ -36,7 +36,7 @@ class TestWebReport(unittest.TestCase):
         self.assertTrue(content, "No se creó el contenido HTML correctamente")
 
     def test_create_file(self):
-        sample_content = "HTML Content"  
+        sample_content = "Se creo "  
         create_file(sample_content)
 
         self.assertTrue(os.path.exists("financial-report.html"), "El archivo HTML no se creó")
