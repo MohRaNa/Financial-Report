@@ -2,7 +2,6 @@ import unittest
 import sys
 import os
 
-# Agrega la ruta del directorio "src" para importar los módulos
 sys.path.append(os.path.join(os.path.dirname(__file__), '../src'))
 
 from patterns.csv_utils import parse_file
